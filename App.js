@@ -15,6 +15,7 @@ import Chat from './components/Chat';
 const Stack = createStackNavigator();
 
 export default class App extends React.Component {
+
   render() {
     return (
       <NavigationContainer>
@@ -22,12 +23,26 @@ export default class App extends React.Component {
           initialRouteName="Start"
         >
           <Stack.Screen
-            name="Chat App"
+            name="Start"
             component={Start}
+            options={{
+              title: 'Chat App',
+              headerStyle: {
+                height: 0,
+              },
+            }}
           />
           <Stack.Screen
             name="Chat"
             component={Chat}
+            options={{
+              title: 'My home',
+              headerStyle: {
+                backgroundColor: '#D8D9CF',
+                height: 80,
+              },
+              headerTintColor: '#000',
+            }}
           />
         </Stack.Navigator>
       </NavigationContainer>

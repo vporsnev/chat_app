@@ -7,6 +7,7 @@ import {
   ImageBackground,
   TouchableOpacity,
 } from 'react-native';
+import { useTheme } from '@react-navigation/native';
 
 // Define colors for background color selection
 const backgroundColors = {
