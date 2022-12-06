@@ -1,5 +1,7 @@
 # Chat App
 
+(chatapp.jpeg)
+
 ## About
 Simple Chat app with login, one chat room, picture and location attachement functions. The app provides users with a chat interface and options to share images and their location.
 App is written with React Native, Expo, and Google Firestore Database.
