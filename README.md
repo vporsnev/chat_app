@@ -1,6 +1,6 @@
 # Chat App
 
-![This is a screenshot of the Chat app](chatapp.jpeg)
+![This is a screenshot of the Chat app](chatapp.jpeg) ![This is a screenshot of the Chat app](chat.jpeg)
 
 ## About
 Simple Chat app with login, one chat room, picture and location attachement functions. The app provides users with a chat interface and options to share images and their location.
